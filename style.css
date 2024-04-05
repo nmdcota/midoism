@@ -25,14 +25,14 @@
 }
 
 .contact-button:hover {
-    color: #811999;
-    border-color: #811999;
+    color: #FF8500;
+    border-color: #FF8500;
     background: #F2E8F5;
 }
 
 .contact-button:active {
-    color: #811999;
-    border-color: #811999;
+    color: #FF8500;
+    border-color: #FF8500;
     background: #F2E8F5;
     opacity: 0.3;
 }
@@ -62,7 +62,7 @@ nav a {
 
 nav a::after {
    content: "";
-    background-color: #811999;
+    background-color: #FF8500;
     position: absolute;
     width: 0;
     height: 0.2rem;
@@ -77,7 +77,7 @@ nav a:hover:after {
 }
 
 nav a.active-nav {
-   color: #811999;
+   color: #FF8500;
 }
 
 nav.passive-nav {
@@ -92,7 +92,7 @@ nav.passive-nav {
     text-decoration: underline;
     text-decoration-thickness: 0.25rem;
     text-underline-offset: 0.5rem;
-    text-decoration-color: #811999;
+    text-decoration-color: #FF8500;
     opacity: 0.7;
 }
 
@@ -101,7 +101,7 @@ nav.passive-nav {
     text-decoration: underline;
     text-decoration-thickness: 0.25rem;
     text-underline-offset: 0.5rem;
-    text-decoration-color: #811999;
+    text-decoration-color: #FF8500;
     opacity: 0.2;
 }
 
@@ -109,7 +109,7 @@ nav.passive-nav {
     color: black;
     text-decoration: underline;
     text-decoration-thickness: 0.25rem;
-    text-decoration-color: #811999;
+    text-decoration-color: #FF8500;
     text-underline-offset: 0.5rem;
 } */
 
@@ -137,7 +137,7 @@ nav.passive-nav {
 }
 
 .drop-down-menu {
-    background-color: #811999;
+    background-color: #FF8500;
     color: white;
     position: fixed;
     right: 0; left: 0;
@@ -163,7 +163,7 @@ nav.passive-nav {
 }
 
 .menu-item {
-    background-color: #811999;
+    background-color: #FF8500;
     color: white;
     transition: all 300ms ease-in;
     display: block;
@@ -182,7 +182,7 @@ nav.passive-nav {
 }
 
 .menu-item a:hover {
-    color: #811999;
+    color: #FF8500;
 }
 
 /* Main text - HOME  */
@@ -199,7 +199,7 @@ nav.passive-nav {
 }
 
 .mido {
-    color: #811999;
+    color: #FF8500;
 }
 
 .second-line {
@@ -245,14 +245,14 @@ nav.passive-nav {
 }
 
 .explore-button:hover {
-    color: #811999;
-    border-color: #811999;
+    color: #FF8500;
+    border-color: #FF8500;
     background: #F2E8F5;
 }
 
 .explore-button:active {
-    color: #811999;
-    border-color: #811999;
+    color: #FF8500;
+    border-color: #FF8500;
     background: #F2E8F5;
     opacity: 0.3;
 }
@@ -565,14 +565,14 @@ nav.passive-nav {
 
 .contact-mail-button:hover, .contact-linkedin-button:hover {
     background-color: #F2E8F5;
-    color: #811999;
-    border-color: #811999;
+    color: #FF8500;
+    border-color: #FF8500;
 }
 
 .contact-mail-button:active, .contact-linkedin-button:active {
     background-color: #F2E8F5;
-    color: #811999;
-    border-color: #811999;
+    color: #FF8500;
+    border-color: #FF8500;
     opacity: 0.3;
 }
 
@@ -689,7 +689,7 @@ nav.passive-nav {
  .design-bar-title span {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #811999;
+    color: #FF8500;
     display: inline-block;
     padding-top: 1rem;
     margin-bottom: 1rem;
@@ -725,9 +725,9 @@ nav.passive-nav {
  }
 
  .design-button:hover {
-    border: 0.1rem solid #811999;
+    border: 0.1rem solid #FF8500;
     background-color: #F2E8F5;
-    color: #811999;
+    color: #FF8500;
  }
 
  .design-button:active {
@@ -769,14 +769,14 @@ nav.passive-nav {
  }
 
  .design-bar-filter button:hover {
-    border: 0.1rem solid #811999;
-    color: #811999;
+    border: 0.1rem solid #FF8500;
+    color: #FF8500;
     background-color: #F2E8F5;
  }
 
  .design-bar-filter button:active {
-    border: 0.1rem solid #811999;
-    color: #811999;
+    border: 0.1rem solid #FF8500;
+    color: #FF8500;
     background-color: #F2E8F5;
     opacity: 0.3;
  }
@@ -798,13 +798,13 @@ nav.passive-nav {
  .design-bar-more a:hover {
     font-size: 1rem;
     font-weight: 600;
-    color: #811999;
+    color: #FF8500;
  }
 
  .design-bar-more a:active {
     font-size: 1rem;
     font-weight: 600;
-    color: #811999;
+    color: #FF8500;
     opacity: 0.3;
  }
 
@@ -884,14 +884,14 @@ nav.passive-nav {
  }
 
  .card-button a:hover {
-    border: 0.1rem solid #811999;
-    color: #811999;
+    border: 0.1rem solid #FF8500;
+    color: #FF8500;
     background-color: #F2E8F5;
  }
 
  .card-button a:active {
-    border: 0.1rem solid #811999;
-    color: #811999;
+    border: 0.1rem solid #FF8500;
+    color: #FF8500;
     background-color: #F2E8F5;
     opacity: 0.3;
     
@@ -998,7 +998,7 @@ nav.passive-nav {
  }
 
  .project-description a:active {
-    color: #811999;
+    color: #FF8500;
  }
 
  .project-brand {
