@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Consulting Group - Corporate USPs TVC 2023</title>
+    
+    <!-- Website thumbnail -->
+
+    <!-- HTML Meta Tags -->
+    <title>This is Mido</title>
+    <meta name="description" content="Hi! I'm Nguyễn Minh Đông, aka Mido. Check out my portfolio now!">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="This is Mido">
+    <meta itemprop="description" content="Hi! I'm Nguyễn Minh Đông, aka Mido. Check out my portfolio now!">
+    <meta itemprop="image" content="http://nguyenminhdong.com/avatar/website-thumbnail.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="nguyenminhdong.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="This is Mido">
+    <meta property="og:description" content="Hi! I'm Nguyễn Minh Đông, aka Mido. Check out my portfolio now!">
+    <meta property="og:image" content="http://nguyenminhdong.com/avatar/website-thumbnail.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="This is Mido">
+    <meta name="twitter:description" content="Hi! I'm Nguyễn Minh Đông, aka Mido. Check out my portfolio now!">
+    <meta name="twitter:image" content="http://nguyenminhdong.com/avatar/website-thumbnail.png">
+
+    <!-- Meta Tags Generated via http://heymeta.com -->
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="../favicon/fvc.ico">
+
+    <!-- Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+        
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+
+    <header>
+        <a href="../index.html"><img class="web-logo" src="../logo/logo-mido-color.svg" alt="Website logo"></a>
+        <nav>
+            
+                <a class="passive-nav" href="../index.html">HOME</a>
+                <a class="active-nav" href="../html/work.html">MY WORKS</a>
+                <a class="passive-nav" href="../html/about.html">ABOUT ME</a>
+            
+        </nav>
+        <a class="contact-button-link" href="../html/contact.html"><button class="contact-button">Contact</button></a>
+        <img src="../icon/bars-solid.svg" alt="Menu" id="menubutton" class="menu" onclick="toggleMenu()">
+    </header>
+
+    <!-- Dropdown Menu -->
+
+    <div id="menulist" class="drop-down-menu">
+        <div class="menu-link">
+            <div class="menu-item"><a href="../index.html">HOME</a></div>
+            <div class="menu-item"><a href="work.html">MY WORKS</a></div>
+            <div class="menu-item"><a href="about.html">ABOUT ME</a></div>
+            <div class="menu-item"><a href="contact.html">CONTACT</a></div> 
+        </div>
+    </div>
+               
+                <!-- Project description -->
+                <div class="project-description">
+                    <h1>First Consulting Group - Corporate USPs TVC 2023</h1>
+                    <p>
+                        Brand: First Consulting Group - Immigration Law Firm <br>
+                        Type of video: TVC <br>
+                        Year of publication: 2023 <br>
+                        Video edited by Mido <br> 
+                        Visit website via <a target="_blank" href="https://ditrumyfcg.com/">https://ditrumyfcg.com/</a>
+                    </p>
+                    <div class="project-brand">
+                        <img class="fcg" src="../logo/logo-fcg.png" alt="">
+                     </div>
+                </div>
+
+                <!-- Break line -->
+                <div class="product-line"><hr class="product-break-line"/></div>
+
+                <!-- Project showcase -->
+                <div class="project-v">
+                    <div 
+                        style="position: relative; height: 0; overflow: hidden; padding-bottom: 56.25%; /* 16/9 ratio */ border-style: none;">
+                        <iframe
+                            style="position: absolute; top:0; left: 0; width: 100%; height: 100%;"
+                            loading="lazy";
+                            src="https://www.youtube.com/embed/CzOevmdu6vA"                           
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <script>
+
+                    // Dropdown Menu
+                
+                      let menulist = document.getElementById("menulist");
+                      let menubutton = document.getElementById("menubutton");
+                      function toggleMenu() {
+                        menulist.classList.toggle("open-menu");
+                        menubutton.classList.toggle("toggled-button");
+                      }
+                    </script>
+</body>
+</html>
