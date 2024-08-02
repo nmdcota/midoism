@@ -507,6 +507,10 @@ nav.passive-nav {
    height: 2.5rem;
    vertical-align: middle;
  }
+ .logo-24 img {
+   height: 2.7rem;
+   vertical-align: middle;
+ }
 
  
 
@@ -1122,6 +1126,11 @@ nav.passive-nav {
 .toong {
    height: 8vh;
 }
+
+.fcg {
+   height: 8vh;
+}
+
 
 .project-v {
    padding: 0 20%;
