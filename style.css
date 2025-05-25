@@ -226,7 +226,7 @@ nav.passive-nav {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0;
 }
 
 .explore-button {
@@ -320,6 +320,20 @@ nav.passive-nav {
 @keyframes flip {
     from {transform: rotate3d(1,0,0,0);}
     to { transform: rotate3d(1,0,0,180deg);}
+}
+
+
+/* Reel video */
+
+.reel {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56.25% 0 0 0;
+    margin: 0rem 10%;
+    position: relative;
+    background-color: white;
+
 }
 
 /* Main text - ABOUT ME */
