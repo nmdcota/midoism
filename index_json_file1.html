@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lottie Animation Example</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <style>
+    #lottie-container {
+      width: 300px;
+      height: 300px;
+      margin: 50px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="lottie-container"></div>
+
+  <script>
+    var animation = lottie.loadAnimation({
+      container: document.getElementById('lottie-container'), // the dom element
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'animation.json' // path to your animation file
+    });
+  </script>
+
+</body>
+</html>
